@@ -11,10 +11,11 @@
 .contentRp { position: absolute; top: 48px; left: 0; right: 0; bottom: 0; padding:0px 13px 13px; overflow: hidden; overflow-y: auto;text-align: justify;}
 .contentRp > * { opacity: 0; -webkit-transform: translate3d(0, 0, 0); -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -ms-transform: translateX(-100%); -o-transform: translateX(-100%); -webkit-transition: all 0.6s ease; -moz-transition: all 0.6s ease; -ms-transition: all 0.6s ease; -o-transition: all 0.6s ease; }
 /*-------------Onglets actifs--------------*/
-.aventuresRP [type=radio]:checked ~ label { background: color: #cbc5cb; z-index: 2; border: 6px solid white;}
+.aventuresRP [type=radio]:checked ~ label { background: color: #66686d; z-index: 2; border-bottom: 2px solid #66686d;}
 .aventuresRP [type=radio]:checked ~ label ~ .contentRp { z-index: 1; }
 .aventuresRP [type=radio]:checked ~ label ~ .contentRp > * { opacity: 1; -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
 @font-face { font-family: 'Meorgine'; font-style: normal; font-weight: 400; src: url(https://fonts.cdnfonts.com/s/99122/Meorgine-GOpMO.woff) format('woff'); }
+
 
 
 
