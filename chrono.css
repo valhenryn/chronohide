@@ -2,7 +2,7 @@
 /*--------------Dimensions tableau--------------*/
 .aventuresRP { position: relative; min-height: 300px; padding: 0px; background:#131c26; color: #66686d;}
 /*--------------Onglets--------------*/
-.tab { float: left;  margin-right: 10px;}
+.tab { float: left;  margin-right: 10px; width: 563px;}
 .tab label { padding: 5px 10px; position: absolute; color: #8897c2; font: 25px 'Meorgine', sans-serif; text-transform: uppercase; background: #131c26;boder-top: 6px solid #cbc5cb;}
 .tab [type=radio] { display: none; }
 .tab label[for="tab-1"] { left: 100px; boder-bottom: 6px solid #cbc5cb;}
@@ -15,6 +15,7 @@
 .aventuresRP [type=radio]:checked ~ label ~ .contentRp { z-index: 1; }
 .aventuresRP [type=radio]:checked ~ label ~ .contentRp > * { opacity: 1; -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
 @font-face { font-family: 'Meorgine'; font-style: normal; font-weight: 400; src: url(https://fonts.cdnfonts.com/s/99122/Meorgine-GOpMO.woff) format('woff'); }
+
 
 
 
