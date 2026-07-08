@@ -2,7 +2,7 @@
 #fa_toolbar #fa_right #notif_list li .contentText a { color: var(--accent1) !important; font-weight: 600; }
 #fa_toolbar #fa_right #notif_list li .content { font-family: var(--font1); }
 #fa_toolbar #fa_right #notif_list li { color: var(--text3); font-family: var(--font1); }
-#fa_toolbar #fa_right #notif_list { top: 26px; background: var(--borders1) !important; position: fixed; box-shadow: none;}
+#fa_toolbar #fa_right #notif_list { top: 36px; background: var(--borders1) !important; position: fixed; box-shadow: none;}
 #fa_toolbar { display: block !important; position: absolute; top: -100px; }
 .ent-topbar { padding-right: 41px; justify-content: space-between; }
 a#fa_notifications:before { font-family:fontawesome; font-weight: 600; content: "\f0f3"; font-size: 15px; margin-right: 14px; color: var(--accent1); }
