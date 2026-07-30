@@ -180,7 +180,12 @@
  transform: scale(1);
 }
 
-
+.switcheroo[position="top"] {
+    position: fixed;
+    top: 0;
+    left: 70px;
+    z-index: 100;
+}
 
 /* TOOLTIP - INFOBULLE DU PSEUDO ---*/
 
