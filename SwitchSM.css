@@ -375,7 +375,7 @@
  text-transform: uppercase;
  font-size: 14px;
  align-self: flex-end;
- background-color: var(--light);
+ background-color: var(--accent2);
  border: var(--border);
  cursor: pointer;
 }
