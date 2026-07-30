@@ -28,7 +28,7 @@
 .switcheroo[position="top"] {
  position: fixed;
  top: 0;
- left: 70px;
+ left: 70px!important;
  z-index: 100;
 }
 
