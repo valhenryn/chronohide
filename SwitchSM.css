@@ -36,7 +36,7 @@
 .switcheroo[position="bottom"] {
  position: fixed;
  bottom: 0;
- left: 70px;
+ left: 70px!important;
  z-index: 100;
 }
 
